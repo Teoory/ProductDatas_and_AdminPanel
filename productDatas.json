@@ -20,7 +20,8 @@
       "stocked": false,
       "created_at": "2020/1/5",
       "updated_at": "2020/3/8"
-    },{
+    },
+    {
     "id": 3,
     "brand": "Samsung",
     "name": "Galaxy S21",
