@@ -197,7 +197,7 @@ $(function () {
             `<tr class="table-row" data-key="${product.id}">
               <td class="table-cell align-right">${product.id}</td>
               <td class="table-cell align-left">${product.brand}</td>
-              <td class="table-cell align-left">${product.name}</td>
+              <td class="table-cell align-left">${product.productName}</td>
               <td class="table-cell align-left">${product.category}</td>
               <td class="table-cell align-right">&yen; ${product.price}</td>
               <td class="table-cell align-left">${

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/8a5cbbd5c9.js" crossorigin="anonymous"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script> -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    
+    <title>Admin Panel | Change Item</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="nav">
+          <div class="dark-mode">
+              <span class="material-symbols-outlined active">
+                  light_mode
+                  </span>
+              <span class="material-symbols-outlined">
+                  dark_mode
+              </span>
+          </div>
+        </div>
+        
+        <h1 style="color: goldenrod;">Admin Panel | Change Item</h1>
+
+        <form id="productForm">
+
+            <label for="brand">Brand:</label>
+            <input type="text" id="brand" placeholder="Ürün Adı" required><br><br>
+
+
+            <button type="button" onclick="addProduct()">Ekle</button>
+        </form>
+    </div>
+
+    <script src="https://kit.fontawesome.com/6d64fe8c14.js" crossorigin="anonymous"></script>
+    <script src="admin.js"></script>
+</body>
+</html>
