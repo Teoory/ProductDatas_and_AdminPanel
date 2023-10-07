@@ -9,8 +9,6 @@ function addProduct() {
     $.getJSON('../../productDatas.json', function(data) {
         var lastId = data[data.length - 1].id; // son id oku
         var newId = lastId + 1; // yeni id
-
-        var currentDate = new Date(); // tarih ekle
         
     var currentDate = new Date();
 

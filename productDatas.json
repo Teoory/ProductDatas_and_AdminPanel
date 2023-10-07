@@ -44,15 +44,9 @@
     "updated_at": "2021/8/15"
   },
   {
-    "id": 5,
-    "brand": "Google",
-    "productName": "Pixel 5",
-    "category": "Phone",
-    "price": 7999,
-    "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, nesciunt. Quaerat illum praesentium tempora optio? Mollitia atque nisi tempora rerum.",
-    "stocked": true,
-    "created_at": "2021/9/20",
-    "updated_at": "2021/10/8"
+    "id": "5",
+    "stocked": false,
+    "updated_at": "2023/10/08"
   },
   {
     "id": 6,
@@ -155,14 +149,14 @@
   },
   {
     "id": 5,
-    "brand": "Google",
-    "productName": "Pixel 4",
+    "brand": "OnePlus",
+    "productName": "OnePlus 5",
     "category": "Phone",
-    "price": 3999,
+    "price": 2999,
     "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, nesciunt. Quaerat illum praesentium tempora optio? Mollitia atque nisi tempora rerum.",
     "stocked": true,
-    "created_at": "2021/9/20",
-    "updated_at": "2021/10/8"
+    "created_at": "2021/3/5",
+    "updated_at": "2021/7/18"
   },
   {
     "id": 6,
@@ -474,46 +468,35 @@
   },
   {
     "id": 34,
-    "brand": "teory",
-    "productName": "teoEngine2",
+    "brand": "ChangedItemBrand",
+    "productName": "ChangedItemName",
     "category": "Engine",
-    "price": "28",
-    "description": "asdasdasd",
+    "price": "299",
+    "description": "Lorem",
     "stocked": true,
     "created_at": "2023/10/07",
-    "updated_at": "2023/10/07"
+    "updated_at": "2023/10/08"
   },
   {
     "id": 35,
     "brand": "teory",
-    "productName": "sadasd",
-    "category": "Engine",
-    "price": "19",
-    "description": "asdasc",
-    "stocked": true,
-    "created_at": "2023/10/07",
-    "updated_at": "2023/10/07"
+    "productName": "teoEngine2",
+    "category": "Phone",
+    "price": "5434",
+    "description": "asdsadads",
+    "stocked": false,
+    "created_at": "2023/10/08",
+    "updated_at": "2023/10/08"
   },
   {
     "id": 36,
-    "brand": "sadsad",
-    "productName": "sadsada",
-    "category": "Engine",
-    "price": "19",
-    "description": "asdsadad",
-    "stocked": false,
-    "created_at": "2023/10/07",
-    "updated_at": "2023/10/07"
-  },
-  {
-    "id": 37,
     "brand": "teory",
-    "productName": "asdascsaczxc",
-    "category": "Engine",
-    "price": "99",
-    "description": "dcscsd",
+    "productName": "teoEngine3",
+    "category": "TV",
+    "price": "599",
+    "description": "lorem",
     "stocked": true,
-    "created_at": "2023/10/07",
-    "updated_at": "2023/10/07"
+    "created_at": "2023/10/08",
+    "updated_at": "2023/10/08"
   }
 ]

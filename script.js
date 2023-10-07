@@ -199,7 +199,7 @@ $(function () {
               <td class="table-cell align-left">${product.brand}</td>
               <td class="table-cell align-left">${product.productName}</td>
               <td class="table-cell align-left">${product.category}</td>
-              <td class="table-cell align-right">&yen; ${product.price}</td>
+              <td class="table-cell align-right">&#8378; ${product.price}</td>
               <td class="table-cell align-left">${
                 product.stocked
                   ? `<i class="fas fa-check-circle light-text"></i>${twoSpace}In stock`

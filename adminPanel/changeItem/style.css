@@ -37,7 +37,6 @@
     --box-shadow: 0 2rem 3rem var(--color-light);
 }
 
-
 .dark-mode {
     background-color: var(--color-light);
     display: flex;
@@ -47,95 +46,110 @@
     width: 4.2rem;
     cursor: pointer;
     border-radius: var(--border-radius-1);
-  }
-  
-  .dark-mode span {
+}
+
+.dark-mode span {
     font-size: 1.2rem;
     width: 50%;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  
-  .dark-mode span.active {
+}
+
+.dark-mode span.active {
     background-color: var(--color-primary);
     color: var(--color-white);
     border-radius: var(--border-radius-1);
-  }
+}
 
 *, *::before, *::after {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-  overscroll-behavior-y: none;
-  font-family: 'Poppins', sans-serif;
-  background-color: var(--color-background);
-  color: var(--color-white);
+    overscroll-behavior-y: none;
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--color-background);
+    color: var(--color-white);
 }
 
 h1 {
     text-align: center;
 }
 
-form {
-    color: var(--color-black);
+h2 {
+    color: var(--color-warning);
+}
+
+label {
+    color: var(--color-warning);
+}
+  
+  form {
     max-width: 500px;
     margin: 0 auto;
-    background: #f8f8f8;
+    background-color: #fff;
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-
-label, input, textarea {
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  label,
+  input,
+  textarea,
+  button,
+  checkbox {
     display: block;
     margin-bottom: 10px;
-}
-
-input, textarea {
     width: 100%;
-    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  label {
+    font-weight: bold; 
+  }
+  
+  input,
+  textarea {
+    padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
-}
-
-button {
-    background: #007bff;
+  }
+  
+  textarea {
+    height: 100px;
+  }
+  
+  button {
+    background-color: #007bff;
     color: #fff;
     border: none;
     padding: 10px 20px;
-    border-radius: 4px;
+    font-size: 16px;
     cursor: pointer;
-}
-
-button:hover {
-    background: #0056b3;
-}
-
-button:active {
-    background: #004080;
-}
-
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
 
 input[type="checkbox"] {
     -webkit-appearance: none;
     appearance: none;
     margin: 0;
-  
     font: inherit;
-    color: currentColor;
+    color: var(--color-black);
     width: 1.15em;
     height: 1.15em;
-    border: 0.15em solid currentColor;
+    border: 0.15em solid var(--color-black);
     border-radius: 0.15em;
     transform: translateY(-0.075em);
-  
     display: grid;
     place-content: center;
 }
-  
+
 input[type="checkbox"]::before {
     content: "";
     width: 0.65em;
@@ -144,11 +158,15 @@ input[type="checkbox"]::before {
     transform: scale(0);
     transform-origin: bottom left;
     transition: 120ms transform ease-in-out;
-    box-shadow: inset 1em 1em var(--form-control-color);
+    box-shadow: inset 1em 1em purple; /* Değişiklik burada */
     /* Windows High Contrast Mode */
     background-color: purple;
 }
-  
+
 input[type="checkbox"]:checked::before {
     transform: scale(1);
+}
+
+span {
+    color: var(--color-black);
 }
