@@ -19,6 +19,7 @@ function addProduct() {
 
     var product = {
         "id": newId,
+        "qr": newQR,
         "brand": $("#brand").val(),
         "productName": $("#productName").val(),
         "category": $("#category").val(),

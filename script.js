@@ -196,6 +196,7 @@ $(function () {
           (product) =>
             `<tr class="table-row" data-key="${product.id}">
               <td class="table-cell align-right">${product.id}</td>
+              <td class="table-cell align-right"><a href="${product.qr}" style="display: flex; width:32px; height:32px;"><img src="${product.qr}" alt="QR"></a></td>
               <td class="table-cell align-left">${product.brand}</td>
               <td class="table-cell align-left">${product.productName}</td>
               <td class="table-cell align-left">${product.category}</td>
